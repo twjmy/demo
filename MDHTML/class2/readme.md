@@ -24,8 +24,13 @@ section h1,section h2,section h3,section h4,section h5,section h6,section p,sect
 [ToC]
 + 投影片：https://hackmd.io/@NCHUIT/mdhtml2
 + 網頁：https://hackmd.io/@NCHUIT/mdhtml
-+ 參考: [HackMD](https://hackmd.io/features-tw?both)
-+ 參考: [Github](https://gist.github.com/billy3321/1001749662c370887c63bb30f26c9e6e)
++ ::: spoiler 參考: [HackMD](https://hackmd.io/features-tw?both)
+    {%hackmd features-tw %}
+    :::
++ ::: spoiler 參考: [Github](https://gist.github.com/billy3321/1001749662c370887c63bb30f26c9e6e)
+    {%gist billy3321/1001749662c370887c63bb30f26c9e6e %}
+    :::
+    
 :::
 
 ---
