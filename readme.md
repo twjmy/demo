@@ -20,8 +20,6 @@ lang: zh-tw
 
 如有任何問題或是狀況，請至 [GitHub](https://github.com/hackmdio/hackmd-io-issues/issues/new) 回報問題，或來信客服信箱：support@hackmd.io
 
-<!-- {%hackmd LH2nR6BkRa-My0HYcW8g3Q %} -->
-
 工作區
 ===
 ## 模式
