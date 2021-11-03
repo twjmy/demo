@@ -210,23 +210,6 @@ When you’re a carpenter making a beautiful chest of drawers, you’re not goin
 > > 也支援巢狀引用區塊喔！
 > > [name=ChengHan Wu] [time=Sun, Jun 28, 2015 10:00 PM] [color=red]
 
-## 外部
-
-### Youtube
-{%youtube 1G4isv_Fylg %}
-
-### Vimeo
-{%vimeo 124148255 %}
-
-### Gist
-{%gist schacon/4277 %}
-
-### SlideShare
-{%slideshare briansolis/26-disruptive-technology-trends-2016-2018-56796196 %}
-
-### Speakerdeck
-{%speakerdeck sugarenia/xxlcss-how-to-scale-css-and-keep-your-sanity %}
-
 ### PDF
 **注意：請使用 https 的網址，否則可能會被您的瀏覽器阻擋載入**
 {%pdf https://www.w3.org/TR/WAI-WEBCONTENT/wai-pageauth.pdf %}
