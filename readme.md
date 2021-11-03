@@ -210,10 +210,6 @@ When you’re a carpenter making a beautiful chest of drawers, you’re not goin
 > > 也支援巢狀引用區塊喔！
 > > [name=ChengHan Wu] [time=Sun, Jun 28, 2015 10:00 PM] [color=red]
 
-### PDF
-**注意：請使用 https 的網址，否則可能會被您的瀏覽器阻擋載入**
-{%pdf https://www.w3.org/TR/WAI-WEBCONTENT/wai-pageauth.pdf %}
-
 ## MathJax
 
 您可以使用 **MathJax** 語法 來產生 *LaTeX* 數學表達式，如同 [math.stackexchange.com](http://math.stackexchange.com/)，但是開始的 `$` 後面以及結尾的 `$` 前面不能有空白：
