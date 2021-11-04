@@ -20,15 +20,3 @@ slideOptions:
 + [HTML 簡介與基礎語法](/@NCHUIT/mdhtml1/edit?view)
 + [MarkDown 簡介與基礎語法](/@NCHUIT/mdhtml2/edit?view)
 + [將 HTML/MarkDown 放上網](/@NCHUIT/mdhtml3/edit?view)
-
-::: spoiler HTML 簡介與基礎語法 {state=open}
-{%hackmd @NCHUIT/mdhtml1 %}
-:::
-
-::: spoiler MarkDown 簡介與基礎語法 {state=open}
-{%hackmd @NCHUIT/mdhtml2 %}
-:::
-
-::: spoiler 將 HTML/MarkDown 放上網 {state=open}
-{%hackmd @NCHUIT/mdhtml3 %}
-:::
