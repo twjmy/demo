@@ -228,13 +228,6 @@ print "hello"
 
 ----
 
-### Youtube
-```
-{%youtube 1G4isv_Fylg %}
-```
-
-----
-
 
 警告區塊
 ---
