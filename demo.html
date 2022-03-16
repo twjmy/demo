@@ -15,7 +15,7 @@
     function pick() {
         範圍 = parseInt(document.getElementById("範圍").value);
         const 隨機數 = (Math.random() * 範圍 << 0) + 2;
-        console.log(random);
+        console.log(隨機數);
         const 抽獎查詢字串 = 'select *'
         抽獎網址 = 工作表網址 + `&tq=${encodeURIComponent(抽獎查詢字串)}&range=${隨機數}:${隨機數}`;
         div.innerHTML = `<iframe id='iframe' src='${抽獎網址}' width='100%' height='70%' frameborder='0'></iframe>`
