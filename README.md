@@ -11,13 +11,13 @@ slideOptions:
 ## 存放庫樹狀目錄
 
 + 從 HTML 到 Markdown
-	+ [Website](https://twjmy.github.io/MDHTML)
+	+ [Website](./MDHTML)
 	+ [Source](MDHTML)
 	+ [HackMD](https://hackmd.io/@NCHUIT/mdhtml)
 + 通識加選(1092)封存網頁
-	+ [選擇](https://twjmy.github.io/gned_add2_list)
-	+ [確認](https://twjmy.github.io/gned_add3_check)
-	+ [結果](https://twjmy.github.io/gned_add4_dml)
+	+ [選擇](./gned_add2_list)
+	+ [確認](./gned_add3_check)
+	+ [結果](./gned_add4_dml)
 
 <style>
 hr{display:none}
