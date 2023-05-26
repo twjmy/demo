@@ -1,0 +1,23 @@
+<label>範圍: </label><input id="範圍" type="number">
+<button onclick="check()">檢查</button>
+<button onclick="pick()">生成</button>
+<div id="iframeDIV"></div>
+<script>
+    const 表單網址 = "https://docs.google.com/spreadsheets/d/1q5eQpj-zFtUCNj_K1pN23RTpym9uqjOYT9wMsw_Qvz4";
+    const 工作表 = "110-1 實聯制";
+    工作表網址 = 表單網址 + `/gviz/tq?tqx=out:html&sheet=${encodeURIComponent(工作表)}`;
+    div = document.getElementById("iframeDIV");
+    function check() {
+        const 檢查字串 = 'select count(C)'
+        檢查網址 = 工作表網址 + `&tq=${encodeURIComponent(檢查字串)}`;
+        div.innerHTML = `<iframe id='iframe' src='${檢查網址}' width='100%' height='70%' frameborder='0'></iframe>`
+    }
+    function pick() {
+        範圍 = parseInt(document.getElementById("範圍").value);
+        const 隨機數 = (Math.random() * 範圍 << 0) + 2;
+        console.log(隨機數);
+        const 抽獎查詢字串 = 'select *'
+        抽獎網址 = 工作表網址 + `&tq=${encodeURIComponent(抽獎查詢字串)}&range=${隨機數}:${隨機數}`;
+        div.innerHTML = `<iframe id='iframe' src='${抽獎網址}' width='100%' height='70%' frameborder='0'></iframe>`
+    }
+</script>
